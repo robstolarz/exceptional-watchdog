@@ -1,6 +1,6 @@
 {
   "name": "exceptional-watchdog",
-  "version": "1.0.0",
+  "version": "1.0.0-beta0",
   "description": "A Node.js C++ addon for a watchdog timer that can be fed to reset its countdown.",
   "main": "./build/Release/exceptional_watchdog.node",
   "types": "./types/index.d.ts",
