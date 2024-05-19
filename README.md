@@ -128,6 +128,7 @@ That being said, if you do end up using this in production, please file a GitHub
 - [ ] Make teardown possible
 - [ ] Attempt repeated delivery of exceptions when left unacknowledged (on timer)
 - [ ] Set up CI, linting, packaging
+- [ ] Make debug logging configurable or at least not so noisy
 
 ### v2
 
