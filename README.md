@@ -109,6 +109,8 @@ Maybe it should try a few times? Maybe it shouldn't stop trying until fed? Maybe
 
 ### Watchdog cannot currently be stopped
 
+It would be reasonable to be able to stop the watchdog, at least for testing. Probably should happen for a v1.
+
 ## Using in production
 
 I'm not going to stop you. I don't know if I'd recommend it, this is more or less one afternoon's worth of work, but it does generally do what you'd expect.
