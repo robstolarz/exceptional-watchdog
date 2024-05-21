@@ -2,29 +2,22 @@
   "name": "exceptional-watchdog",
   "version": "1.0.0-beta0",
   "description": "A Node.js C++ addon for a watchdog timer that can be fed to reset its countdown.",
-  "main": "./build/Release/exceptional_watchdog.node",
-  "types": "./types/index.d.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "node-gyp rebuild -v",
+    "build": "tsc && node-gyp configure build",
     "test": "jest"
   },
   "gypfile": true,
   "author": "Rob Stolarz",
-  "license": "ISC",
+  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "http://github.com/robstolarz/exceptional-watchdog.git"
   },
-  "keywords": [
-    "node-addon",
-    "watchdog",
-    "timer",
-    "node",
-    "C++"
-  ],
+  "keywords": ["node-addon", "watchdog", "timer", "node", "C++"],
   "devDependencies": {
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.12.7",
+    "@types/node": "^20.12.12",
     "jest": "^29.7.0",
     "prettier": "^3.2.5",
     "ts-jest": "^29.1.2",
@@ -34,6 +27,6 @@
   "dependencies": {
     "@types/bindings": "^1.5.5",
     "bindings": "^1.5.0",
-    "node-addon-api": "^7.0.0"
+    "node-addon-api": "^7.1.0"
   }
 }

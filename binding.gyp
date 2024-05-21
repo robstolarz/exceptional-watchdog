@@ -3,7 +3,7 @@
     {
       "target_name": "exceptional-watchdog",
       "sources": [
-        "src/exceptional-watchdog.cpp"
+        "src/native/exceptional-watchdog.cpp"
       ],
       "include_dirs": ["<!@(node -p \"require('node-addon-api').include\")"],
       "dependencies": ["<!(node -p \"require('node-addon-api').gyp\")"],

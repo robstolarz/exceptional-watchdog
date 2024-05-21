@@ -27,8 +27,6 @@ void timer_expired(uv_timer_t* handle) {
     main_isolate->RequestInterrupt(interrupt_callback, nullptr);
     std::cout << "stopping timer (timer_expired)" << std::endl;
     uv_timer_stop(handle);
-    // std::cout << "cleaning up timer";
-    // uv_close((uv_handle_t*) handle, nullptr); // clean up the timer
 }
 
 // Function to reset the watchdog timer

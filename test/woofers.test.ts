@@ -1,4 +1,4 @@
-import ExceptionalWatchdog from "../src";
+import * as ExceptionalWatchdog from "../src";
 import { statSync } from "fs";
 
 function blockingOperation(timeout: number): void {

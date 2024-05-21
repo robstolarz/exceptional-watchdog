@@ -18,7 +18,7 @@ You'll want to do two things:
 Start by importing the module and deciding your pup's feeding deadline (irregular feeding is not recommended):
 
 ```typescript
-import ExceptionalWatchdog from 'exceptional-watchdog';
+import * as ExceptionalWatchdog from 'exceptional-watchdog';
 const EWD_FEED_DEADLINE_IN_MS = 10000; // 10 seconds is probably way more than you need
 // adventurous users could try 5
 ```
