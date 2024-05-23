@@ -121,6 +121,10 @@ To be clear: I (Rob) wrote this because I thought it'd be funny for something li
 
 That being said, if you do end up using this in production, please file a GitHub Issue saying hello (no need to include your company name, though that would be especially neat).
 
+## Get in touch
+
+Feeling cute, might delete [Discord](https://discord.gg/2EgFTh4YfP) and [Twitter (@dontreadthecode)](https://twitter.com/dontreadthecode) later
+
 ## Roadmap
 
 ### v1
