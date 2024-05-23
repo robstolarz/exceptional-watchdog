@@ -10,6 +10,13 @@ Meet the goodest boy that there ever was: `exceptional-watchdog`. This 'lil guy 
 
 For now, please don't use `exceptional-watchdog` inside a library. Keep it at the root of your application, because there can only be one global dog per isolate (for the moment; see [v2](#v2)).
 
+You'll need to build the package, as no binaries are currently offered:
+
+```sh
+pnpm install
+pnpm build
+```
+
 You'll want to do two things:
 
 1. Feed the watchdog regularly, so it doesn't bark unless the app is truly stalled out
